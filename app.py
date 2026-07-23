@@ -59,6 +59,19 @@ st.markdown(
             color: #475467;
             line-height: 1.5;
         }
+
+        /* Remove top-right Streamlit toolbar */
+        [data-testid="stToolbar"],
+        [data-testid="stToolbarActions"],
+        [data-testid="stHeaderActionElements"],
+        [data-testid="stAppDeployButton"] {
+            display: none !important;
+        }
+
+        /* Remove the three-dot menu */
+        #MainMenu {
+            visibility: hidden !important;
+        }
     </style>
     """,
     unsafe_allow_html=True
