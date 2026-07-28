@@ -59,6 +59,25 @@ st.markdown(
             color: #475467;
             line-height: 1.5;
         }
+        [data-testid="stToolbar"] {
+            display: none;
+        }
+        
+        [data-testid="stDecoration"] {
+            display: none;
+        }
+        
+        #MainMenu {
+            visibility: hidden;
+        }
+        
+        footer {
+            visibility: hidden;
+        }
+        
+        header {
+            visibility: hidden;
+        }
     </style>
     """,
     unsafe_allow_html=True
